@@ -1,6 +1,32 @@
-nav {
+.welcome-container {
   display: flex;
   flex-direction: row;
-  justify-content: right;
-  align-items: center;
+  text-align: left;
+}
+
+p {
+  width: 100%;
+}
+
+h4, h1 {
+  font-family: "Playfair Display", serif;
+  font-weight: 500;
+}
+
+
+.section-title, .section-invitation {
+  font-family: Playfair Display, serif;
+  font-style: italic;
+}
+.section-invitation {
+  color: #50614E;
+  font-size: 56px;
+  line-height: 58px;
+  letter-spacing: 0;
+}
+
+.section-title {
+  color: #E5A583;
+  font-size: 26px;
+  line-height: 100%;
 }

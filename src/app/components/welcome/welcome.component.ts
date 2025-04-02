@@ -1,14 +1,14 @@
 import {Component} from '@angular/core';
-import {NgOptimizedImage} from '@angular/common';
+import {MatIconModule} from '@angular/material/icon';
 
 @Component({
-  selector: 'app-header',
-  templateUrl: './header.component.html',
+  selector: 'app-welcome',
+  templateUrl: './welcome.component.html',
   imports: [
-    NgOptimizedImage
+    MatIconModule
   ],
-  styleUrl: './header.component.css'
+  styleUrl: './welcome.component.css'
 })
-export class HeaderComponent {
+export class WelcomeComponent {
   title = 'SofiPsychology';
 }
