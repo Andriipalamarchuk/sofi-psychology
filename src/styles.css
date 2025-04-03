@@ -20,7 +20,13 @@ body {
 }
 
 .arrow-right {
-  border-radius: 100%;
-  border-width: 0.1px;
+  font-weight: 100 !important;
+  width: 35px !important;
+  height: 35px !important;
+  border-radius: 50%;
+  border-width: 1px;
+  display: flex !important;
+  align-items: center;
+  justify-content: center;
   margin: 0 10px 0;
 }
