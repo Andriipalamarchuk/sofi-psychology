@@ -1,0 +1,62 @@
+#my-mission-title {
+  font-family: Playfair Display, serif;
+  font-weight: 500;
+  font-size: 36px;
+  line-height: 48px;
+  text-align: center;
+  color: #50614E;
+  margin-top: 20vh;
+}
+
+#mission-items-container {
+  margin: 10vh 0 20vh;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 16px;
+}
+
+.mission-item-container {
+  display: flex;
+  flex-direction: column;
+}
+
+h4 {
+  font-family: Playfair Display, serif;
+  font-weight: 500;
+  font-style: italic;
+  font-size: 26px;
+  line-height: 100%;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #50614E;
+}
+
+p {
+  font-family: Raleway, serif;
+  font-size: 16px;
+  line-height: 20px;
+  letter-spacing: 2px;
+  text-align: center;
+  color: #504c4c;
+}
+
+.icon-wrapper {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 12px;
+}
+
+.activism-icon {
+  color: #CCAD6A;
+  padding: 35px;
+  height: unset;
+  width: unset;
+  font-size: 75px;
+  border: 0.5px solid #CCAD6A;
+  border-radius: 50%;
+}
+
+h4, p {
+  margin-top: 3vh;
+}

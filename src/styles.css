@@ -30,3 +30,18 @@ body {
   justify-content: center;
   margin: 0 10px 0;
 }
+
+.describing-option {
+  width: 40px;
+  height: 35px;
+  border-radius: 60px;
+  border-width: 1px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: Raleway, serif;
+  font-size: 20px;
+  color: #C86146;
+  border-color: #C86146;
+  font-weight: 400;
+}

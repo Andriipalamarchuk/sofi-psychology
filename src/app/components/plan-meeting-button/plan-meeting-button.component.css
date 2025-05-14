@@ -1,0 +1,11 @@
+button {
+  font-family: Raleway, serif;
+  background: transparent;
+  color: #C86146;
+  border-color: #C86146;
+  margin: 50px auto;
+}
+
+.arrow-right-border-color-updated {
+  border-color: #C86146;
+}

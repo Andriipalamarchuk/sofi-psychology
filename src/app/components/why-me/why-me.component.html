@@ -1,0 +1,119 @@
+<div id="why-me-container">
+  <h2 id="why-me-title">Чому саме я?</h2>
+  <div id="why-me-columns-container">
+    <div id="why-me-left-column">
+      <div class="why-me-option-container" (click)="changeActiveId(1)">
+        <div class="why-me-inner-container">
+        <div class="describing-option-container">
+          <div class="describing-option">1</div>
+          <span class="describing-option-title">Особистий досвід</span>
+        </div>
+          <span class="arrow" [class.expanded]="activeId === 1"></span>
+        </div>
+        @if(activeId === 1) {
+        <ul>
+          <li>Пройшла важливі життєві уроки, які допомагають краще розуміти почуття та труднощі інших.</li>
+          <li>Маю досвід подолання власних страхів і обмежень, що створює емпатійний зв’язок із клієнтами.</li>
+        </ul>
+        }
+      </div>
+      <div class="why-me-option-container" (click)="changeActiveId(2)">
+        <div class="why-me-inner-container">
+          <div class="describing-option-container">
+            <div class="describing-option">2</div>
+            <span class="describing-option-title">Професійні знання та навички</span>
+          </div>
+          <span class="arrow" [class.expanded]="activeId === 2"></span>
+        </div>
+        @if(activeId === 2) {
+        <ul>
+          <li>Пройшла важливі життєві уроки, які допомагають краще розуміти почуття та труднощі інших.</li>
+          <li>Маю досвід подолання власних страхів і обмежень, що створює емпатійний зв’язок із клієнтами.</li>
+        </ul>
+        }
+      </div>
+      <div class="why-me-option-container" (click)="changeActiveId(3)">
+        <div class="why-me-inner-container">
+          <div class="describing-option-container">
+            <div class="describing-option">3</div>
+            <span class="describing-option-title">Унікальний підхід</span>
+          </div>
+          <span class="arrow" [class.expanded]="activeId === 3"></span>
+        </div>
+        @if(activeId === 3) {
+        <ul>
+          <li>Пройшла важливі життєві уроки, які допомагають краще розуміти почуття та труднощі інших.</li>
+          <li>Маю досвід подолання власних страхів і обмежень, що створює емпатійний зв’язок із клієнтами.</li>
+        </ul>
+        }
+      </div>
+      <div class="why-me-option-container" (click)="changeActiveId(4)">
+        <div class="why-me-inner-container">
+          <div class="describing-option-container">
+            <div class="describing-option">4</div>
+            <span class="describing-option-title">Справжня зацікавленість у людях</span>
+          </div>
+          <span class="arrow" [class.expanded]="activeId === 4"></span>
+        </div>
+        @if(activeId === 4) {
+        <ul>
+          <li>Пройшла важливі життєві уроки, які допомагають краще розуміти почуття та труднощі інших.</li>
+          <li>Маю досвід подолання власних страхів і обмежень, що створює емпатійний зв’язок із клієнтами.</li>
+        </ul>
+        }
+      </div>
+      <div class="why-me-option-container" (click)="changeActiveId(5)">
+        <div class="why-me-inner-container">
+          <div class="describing-option-container">
+            <div class="describing-option">5</div>
+            <span class="describing-option-title">Віра в зміни</span>
+          </div>
+          <span class="arrow" [class.expanded]="activeId === 5"></span>
+        </div>
+        @if(activeId === 5) {
+        <ul>
+          <li>Пройшла важливі життєві уроки, які допомагають краще розуміти почуття та труднощі інших.</li>
+          <li>Маю досвід подолання власних страхів і обмежень, що створює емпатійний зв’язок із клієнтами.</li>
+        </ul>
+        }
+      </div>
+      <div class="why-me-option-container" (click)="changeActiveId(6)">
+        <div class="why-me-inner-container">
+          <div class="describing-option-container">
+            <div class="describing-option">6</div>
+            <span class="describing-option-title">Людяність</span>
+          </div>
+          <span class="arrow" [class.expanded]="activeId === 6"></span>
+        </div>
+        @if(activeId === 6) {
+        <ul>
+          <li>Пройшла важливі життєві уроки, які допомагають краще розуміти почуття та труднощі інших.</li>
+          <li>Маю досвід подолання власних страхів і обмежень, що створює емпатійний зв’язок із клієнтами.</li>
+        </ul>
+        }
+      </div>
+      <div class="why-me-option-container" (click)="changeActiveId(7)">
+        <div class="why-me-inner-container">
+          <div class="describing-option-container">
+            <div class="describing-option">7</div>
+            <span class="describing-option-title">Результати роботи</span>
+          </div>
+          <span class="arrow" [class.expanded]="activeId === 7"></span>
+        </div>
+        @if(activeId === 7) {
+        <ul>
+          <li>Пройшла важливі життєві уроки, які допомагають краще розуміти почуття та труднощі інших.</li>
+          <li>Маю досвід подолання власних страхів і обмежень, що створює емпатійний зв’язок із клієнтами.</li>
+        </ul>
+        }
+      </div>
+    </div>
+    <img src="bottom_image.png"
+         alt="Терапія">
+  </div>
+  <div id="university-description-container">
+    <img src="Logo-Giustino-Fortunato.png" alt="Лого Університету">
+    <p id="university-description-text">Я кваліфікований спеціаліст з вищою освітою за спеціальністю “Прикладна поведінкова та когнітивна психологія” (Psicologia Compartmentale e Cognitiva Applicata) та ступенем магістра (LM-51) від італійського університету Giustino Fortunato.</p>
+  </div>
+</div>
+
